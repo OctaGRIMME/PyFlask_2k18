@@ -19,7 +19,6 @@ Breakdown of decision making statements in the Python programming:
 Examples:
 
 **IF**
-'''python
+
 if expression:
-statement(s)
-'''
+<p>statement(s)</p>
