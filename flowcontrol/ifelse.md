@@ -17,10 +17,9 @@ Breakdown of decision making statements in the Python programming:
 | 3          | [**elif** statements](https://www.tutorialspoint.com/python/python_if_else.htm) - You can have an _elif_ statement to check for another boolean expression and execute that if the boolean expression with the _elif_ is TRUE and the is true |
 
 Syntax:
-|---|
-| **IF**
+
+**IF**
 '''
 if expression:
 statement(s)
 '''
-|
