@@ -1,4 +1,4 @@
-# if / else
+# if - else
 
 Before we get into this we need to know about decision making.
 
@@ -10,7 +10,28 @@ Python programming language assumes any non-zero and non-null values as TRUE, an
 
 Breakdown of decision making statements in the Python programming:
 
-| **Sr. No.** | **Statements &amp; Description**                                                                                                                                                                               |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1           | [**if statements**](https://www.tutorialspoint.com/python/python_if_statement.htm) - An _if_ statement consists of a boolean expression followed by one or more statements.                                    |
-| 2           | [**if...else statements**](https://www.tutorialspoint.com/python/python_if_else.htm) - An _if_ statement can be followed by an optional _else_ statement, which executes when the boolean expression is FALSE. |
+| **Sr.No.** | **Statements &amp; Description**                                                                                                                                                                                                              |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | [**if** statements](https://www.tutorialspoint.com/python/python_if_statement.htm) - An _if_ statement consists of a boolean expression followed by one or more statements.                                                                   |
+| 2          | [**if...else** statements](https://www.tutorialspoint.com/python/python_if_else.htm) - An _if_ statement can be followed by an optional _else_ statement, which executes when the boolean expression is FALSE.                                |
+| 3          | [**elif** statements](https://www.tutorialspoint.com/python/python_if_else.htm) - You can have an _elif_ statement to check for another boolean expression and execute that if the boolean expression with the _elif_ is TRUE and the is true |
+
+Syntax:
+|---|
+| **IF**
+if expression:
+statement(s)
+
+Example:
+'''python
+var1 = 100
+if var1:
+print "1 - Got a true expression value"
+print var1
+
+var2 = 0
+if var2:
+print "2 - Got a true expression value"
+print var2
+print "Good bye!"
+|
